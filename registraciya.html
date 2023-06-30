@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registraciya</title>
+    <link rel="stylesheet" href="registraciya.css" />
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  </head>
+  <body>
+    <div class="overlay">
+      <form>
+        <div class="con">
+          <header class="head-form">
+            <h2>Log In</h2>
+
+            <p>login here using your username and password</p>
+          </header>
+
+          <br />
+          <div class="field-set">
+            <span class="input-item">
+              <i class="fa fa-user-circle"></i>
+            </span>
+            <input
+              class="form-input"
+              id="txt-input"
+              type="text"
+              placeholder="@UserName"
+              required
+            />
+            <br />
+            <span class="input-item">
+              <i class="fa fa-key"></i>
+            </span>
+            <input
+              class="form-input"
+              type="password"
+              placeholder="Password"
+              id="pwd"
+              name="password"
+              required
+            />
+            <span>
+              <i
+                class="fa fa-eye"
+                aria-hidden="true"
+                type="button"
+                id="eye"
+              ></i>
+              <img src="" alt="" />
+            </span>
+            <br />
+            <button class="log-in">Log In</button>
+          </div>
+
+          <div class="other">
+            <button class="btn submits frgt-pass">Forgot Password</button>
+            <button class="btn submits sign-up">
+              Sign Up
+              <i class="fa fa-user-plus" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+
+    
+    <script src="registraciya.js"></script>
+  </body>
+</html>

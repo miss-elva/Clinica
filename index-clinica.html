@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index-clinica</title>
+
+    <link rel="stylesheet" href="index-clinica.css" />
+    <link rel="shortcut icon" type="" href="./Image/Icons/logo.png" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+      <!--  -->
+      <!-- <link rel="stylesheet" media="screen and (min-width: 750px)" href="style750px.css">
+      <link type="text/css" media="(max-width: 900px)" href="body_mob.css?v01" rel="stylesheet">  
+      <link type="text/css" media="(max-width: 900px)" href="pages_mob.css?v01" rel="stylesheet"> -->
+      <!--  -->
+  </head>
+  <body>
+    <div id="clinica">
+      <!-- header -->
+      <header>
+        <div class="container">
+          <div class="logo">
+            <img src="./Image/Icons/logo.png" alt="icons" />
+            <p>"Alpha" <br />Медецинский центр</p>
+          </div>
+          <div class="menu">
+            <a class="under" href="">Главная</a>
+            <a  class="under" href="./index2-clinical.html">О нас</a>
+            <a href="">Диагностика</a>
+            <a href="">Врачи</a>
+            <a href="">Статус записи</a>
+            <a href="">Отзывы</a>
+            <a href="">Услуги и цены</a>
+            <a href="">Контакты</a>
+          </div>
+        </div>
+      </header>
+
+      <!-- home -->
+      <div class="home">
+        <div class="info">
+          <h2>
+            Медецинский реабилитационный центр «Alpha» для детей с особенностями
+            развития.
+          </h2>
+          <p>
+            Медецинский реабилитационный центр «Alpha» предоставляет отличные услуги, расставляя
+            приоритеты. «Alpha» — уникальный союз врачей и других специалистов,
+            ведущих свою экспертную деятельность в области коррекции и
+            реабилитации детей с особенностями развития и нарушениями. Мы
+            принимаем детей на реабилитацию со всего мира.
+          </p>
+        </div>
+
+        <div class="image">
+          <img src="./Image/girl.png" alt="" />
+        </div>
+
+        <div class="menu">
+          <h3>Записаться:</h3>
+
+          <div class="registr">
+            <!-- Date -->
+            <div class="dropdowns">
+              <a href="">Дата</a>
+              <button class="dropbtns"><i class="fa fa-caret-down"></i></button>
+              <div class="dropdowns-content">
+                <a href="#"><input type="datetime-local" /></a>
+              </div>
+            </div>
+
+            <!-- Location -->
+            <div class="dropdowns">
+              <a href="">Город</a>
+              <button class="dropbtns"><i class="fa fa-caret-down"></i></button>
+              <div class="dropdowns-content">
+                <a href="#">Аркадаг</a>
+                <a href="#">Ашгабад</a>
+                <a href="#">Дашогуз</a>
+                <a href="#">Мары</a>
+                <a href="#">Туркменабад</a>
+                <a href="#">Туркменбаши</a>
+              </div>
+            </div>
+
+            <!-- Service -->
+            <div class="dropdown">
+              <a href="#">Услуги</a>
+              <button onclick="myFunction()" class="dropbtn">
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div id="myDropdown" class="dropdown-content">
+                <input
+                  type="text"
+                  placeholder="Search.."
+                  id="myInput"
+                  onkeyup="filterFunction()"
+                />
+                <a href="#">Аудиотерапии</a>
+                <a href="#">Компьютерные диагностики</a>
+                <a href="#">Инвазивные методы</a>
+                <a href="#">Коррекции движения</a>
+                <a href="#">Коррекции поведения ребенка</a>
+                <a href="#">Логопедические коррекции</a>
+                <a href="#">Методы нейромодуляции</a>
+                <a href="#">Методы терапии</a>
+                <a href="#">Физические методы</a>
+
+              </div>
+            </div>
+            
+            <div onclick="document.location='zapis.html'" id="container-0"></div>
+            <div id="container-00"></div>
+
+            <!-- button -->
+          </div>
+
+          <div class="why">
+            <h3>Почему наша клиника?</h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- why -->
+      <section class="inform">
+        <div class="suc">
+          <img src="./Image/Icons/Ellipse 2.png" alt="" />
+          <img class="icon" src="./Image/Icons/first-aid 1.png" alt="" />
+          <h2>Аккредитация JCI</h2>
+          <p>Лучшая безопасность и защита с аккредитацией JCI</p>
+        </div>
+
+        <div class="suc">
+          <img src="./Image/Icons/Ellipse 2.png" alt="" />
+          <img class="icon-2" src="./Image/Icons/ambulance 1.png" alt="" />
+          <h2>Лучший сервис</h2>
+          <p>
+            Обеспечение сервисом и лечением для пациентов мирового стандарта
+          </p>
+        </div>
+
+        <div class="suc-3">
+          <img class="ellip" src="./Image/Icons/Ellipse 2.png" alt="" />
+          <img class="icon-3" src="./Image/Icons/recommendation 1.png" alt="" />
+          <h2>Доступность и качество</h2>
+          <p>
+            Достижения желаемых результатов в области здравоохранения,
+            соответствующих профессиональным знаниям
+          </p>
+        </div>
+
+        <div class="suc">
+          <img src="./Image/Icons/Ellipse 2.png" alt="" />
+          <img class="icon" src="./Image/Icons/medication 1.png" alt="" />
+          <h2>Услуги</h2>
+          <p>
+            Гарантирование уровня оказания медецинской помощи ожидаемых
+            результатов пациента
+          </p>
+        </div>
+      </section>
+
+      <!-- Speciality -->
+      <div class="speciality">
+        <h2>Наша специализация</h2>
+      </div>
+      <div class="spec">
+        <div class="doctor">
+          <img src="./Image/unsplash_DYQfoftWGXw.png" alt="" />
+          <h2>Методы нейромодуляции</h2>
+          <div class="buts">
+            <p>(2001 обзор)</p>
+            <div id="container-01"></div>
+          </div>
+        </div>
+
+        <div class="doctor">
+          <img src="./Image/unsplash_E285pJbC4uE.png" alt="" />
+          <h2>Хирургическое лечение</h2>
+          <div class="buts">
+            <p>(2001 обзор)</p>
+            <div id="container-02"></div>
+          </div>
+        </div>
+
+        <div class="doctor">
+          <img src="./Image/unsplash_nR2C9AVzfHY.png" alt="" />
+          <h2>Массаж и мануальная терапия</h2>
+          <div class="buts">
+            <p>(2001 обзор)</p>
+            <div id="container-03"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- reabilitation -->
+      <div class="container-2">
+        <div class="content">
+          <h2>Метод реабилитации</h2>
+          <div class="reabil">
+            <div class="meths">
+              <img src="./Image/unsplash_aNEaWqVoT0g.png" alt="" />
+              <h3>Инвазивный</h3>
+            </div>
+
+            <div class="meths">
+              <img src="./Image/unsplash_s9WLlvDlbx4.png" alt="" />
+              <h3>Аудио</h3>
+            </div>
+
+            <div class="meths">
+              <img src="./Image/unsplash__HGI5wq4Zok.png" alt="" />
+              <h3>Компьютерный</h3>
+            </div>
+
+            <div class="meths">
+              <img src="./Image/unsplash_uN8TV9Pw2ik.png" alt="" />
+              <h3>Инъекционный</h3>
+            </div>
+
+            <div class="meths">
+              <img src="./Image/unsplash__N7I1JyPYJw.png" alt="" />
+              <h3>Кинезиотейпирование</h3>
+            </div>
+          </div>
+
+          <a href="./registraciya.html" class="rainbow-button" alt="РЕГИСТРАЦИЯ"></a>
+        </div>
+      </div>
+
+      <!--  start reabilitation  -->
+      <div class="container-3">
+        <div class="start">
+          <img class="photo" src="./Image/unsplash_Yxt67gmhZaw.png" alt="" />
+
+          <img
+            class="back"
+            class="bacgr"
+            src="./Image/Rectangle 22.png"
+            alt=""
+          />
+        </div>
+        <div class="hosp">
+          <h2>Когда начинается первый этап реабилитации?</h2>
+          <p>
+            Начинается он с момента возникновения заболевания, травмы или
+            дефекта развития и заканчивается восстановлением физического,
+            психического и социального благополучия при отсутствии или стойкой
+            компенсации патологических отклонений морфологического или
+            функционального характера.
+          </p>
+        </div>
+      </div>
+
+      <div class="container-4">
+        <div class="hosp">
+          <h2>С чего начать реабилитацию?</h2>
+          <p>
+            В рамках медицинской реабилитации используются медицинские (включая
+            фармакотерапию), педагогические, психологические и другие
+            мероприятия, позволяющие нормализовать или компенсировать
+            нарушенные/полностью утраченные функции в результате болезни,
+            травмы.
+          </p>
+        </div>
+        <div class="start">
+          <img class="photo" src="./Image/unsplash_43LwvC-eQPM.png" alt="" />
+
+          <img
+            class="back"
+            class="bacgr"
+            src="./Image/Rectangle 22.png"
+            alt=""
+          />
+        </div>
+
+        <!-- contact -->
+        <div class="container-5">
+          <div class="content-2">
+            <h2>Контакты</h2>
+            <img src="./Image/Icons/Ellipse 10.png" alt="" />
+            <img class="icon-2" src="./Image/Icons/ambulance 2.png" alt="" />
+            <div>
+              <h3>Чрезвычайная ситуация</h3>
+              <p>2-098-019</p>
+            </div>
+
+            <img src="./Image/Icons/Ellipse 10.png" alt="" />
+            <img class="icon-2" src="./Image/Icons/phone-alt 1.png" alt="" />
+            <div>
+              <h3>Обслуживание клиентов</h3>
+              <p>2-222-097</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <footer>
+        <div class="logo">
+          <img src="./Image/Icons/logo.png" alt="icons" />
+          <p>"Alpha"  Медецинский центр</p>
+        </div>
+        <div class="serv">
+          <div class="par">
+            <p>Отличный сервис, обеспечивающий безопасность пациентов!</p>
+          </div>
+          <div class="menu">
+            <a href="#">Главная</a>
+            <a class="upper" href="./index2-clinical.html">О нас</a>
+            <a href="#">Диагностика</a>
+            <a href="#">Врачи</a>
+            <a href="#">Отзывы</a>
+            <a href="#">Услуги и цены</a>
+            <a href="#">Контакты</a>
+          </div>
+            </div>
+
+        <div class="icons">
+          <div class="face">
+            <img
+              class="ic"
+              src="./Image/Icons/linkedin-original 1.png"
+              alt=""
+            />
+            <img class="ic" src="./Image/Icons/instagram 1.png" alt="" />
+            <img class="ic" src="./Image/Icons/facebook.png" alt="" />
+          </div>
+        </div>
+      </footer>
+
+      <!--  -->
+    </div>
+    
+    <script src="index-clinica.js"></script>
+  </body>
+</html>
